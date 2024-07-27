@@ -8,12 +8,8 @@ Features :
 Home Page: An engaging landing page with an overview of FitBox Gym, including high-quality images and key highlights.
 About Us: Information about the gym, its mission, and the team behind FitBox Gym.
 Membership Plans: Detailed descriptions of different membership options and pricing.
-Class Schedule: A dynamic schedule displaying various fitness classes and timings.
-Contact Us: A contact form and location details for easy communication and inquiries.
 Responsive Design: Optimized for all devices, including desktops, tablets, and smartphones.
 Modern UI/UX: Clean and contemporary design with intuitive navigation.
-Installation
-To view or modify the FitBox Gym website locally, follow these steps:
 
 Technologies Used :
 
