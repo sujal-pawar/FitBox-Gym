@@ -272,6 +272,9 @@ body > header > div > header > ul{
     background-color: #000000;
     text-decoration: none;
   }  
+body > footer > div{
+    text-align: right;
+}
 /* Media Queries */
 @media (max-width: 768px) {
     .nav-list {
