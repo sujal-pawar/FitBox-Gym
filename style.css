@@ -281,12 +281,22 @@ body > footer > div{
         flex-direction: column;
         align-items: center;
     }
+    .footer{
+        font-size: 0.5rem;
+    }
+    #home > div > a{
+        font-size: 10px;
+        padding: 2px;
+    }
     .header{
         position: absolute;
         font-size: 0.5rem;
     }
     #contact > div > form > button{
         width: 100%;
+    }
+    body > header > div > header > ul{
+        font-size: 1.2em;
     }
     .hero h2 {
         font-size: 2.5rem;
