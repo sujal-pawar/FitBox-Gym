@@ -275,11 +275,15 @@ body > header > div > header > ul{
 body > footer > div{
     text-align: right;
 }
-/* Media Queries */
+
 @media (max-width: 768px) {
     .nav-list {
         flex-direction: column;
         align-items: center;
+    }
+    .header{
+        position: absolute;
+        font-size: 0.5rem;
     }
     #contact > div > form > button{
         width: 100%;
@@ -287,17 +291,29 @@ body > footer > div{
     .hero h2 {
         font-size: 2.5rem;
     }
-
     .hero p {
         font-size: 1rem;
     }
-
     .service-item {
         width: 100%;
     }
-
     .gallery-grid {
         grid-template-columns: 1fr 1fr;
+    }
+    #gallery{
+        margin: 15px;
+        border-radius: 10px;
+    }
+    #about{
+        margin: 15px;
+        border-radius: 10px;
+    }
+    #contact{
+        margin: 15px;
+        border-radius: 10px;
+    }
+    #services > div > div{
+        margin: 10px;
     }
 }
 
@@ -305,7 +321,10 @@ body > footer > div{
     .hero h2 {
         font-size: 2rem;
     }
-    
+    .header{
+        position: absolute;
+        font-size: 0.5rem;
+    }
     #contact > div > form > button{
         width: 100%;
     }
@@ -317,7 +336,28 @@ body > footer > div{
         width: 100%;
         padding: 0 10px;
     }
+    #gallery{
+        margin: 20px;
+        border-radius: 10px;
+    }
+    #about{
+        margin: 20px;
+        border-radius: 10px;
+    }
+    #services > div > div{
+        margin: 10px;
+    }
+    #contact{
+        margin: 20px;
+        border-radius: 10px;
+    }
+    #home > div > a{
+        font-size: 1rem;
 
+    }
+    #home > div > h2{
+        font-size: 1.5rem;
+    }
     .gallery-grid {
         grid-template-columns: 1fr;
     }
