@@ -335,6 +335,9 @@ body > footer > div{
         position: absolute;
         font-size: 0.5rem;
     }
+    .footer{
+        font-size: 0.5rem;
+    }
     #contact > div > form > button{
         width: 100%;
     }
