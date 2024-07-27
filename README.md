@@ -17,5 +17,9 @@ To view or modify the FitBox Gym website locally, follow these steps:
 
 Technologies Used :
 
-HTML: Structure of the web pages.
+HTML: Structure of the web pages. &
 CSS: Styling and layout of the pages.
+
+Home Page :
+
+![image](https://github.com/user-attachments/assets/bfc5c88a-3b16-4339-a732-295ae974f5a3)
