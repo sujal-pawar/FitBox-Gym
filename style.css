@@ -292,6 +292,7 @@ body > footer > div{
     }
     .header{
         position: absolute;
+        background:;
         
     }
     #contact > div > form > button{
@@ -346,6 +347,7 @@ body > footer > div{
     }
     .header{
         position: absolute;
+        backdrop-filter: blur(2px);
     }
     .footer{
         font-size: 0.5rem;
