@@ -386,6 +386,9 @@ body > footer > div{
     .gallery-grid {
         grid-template-columns: 1fr;
     }
+    body > header > div > header > ul > li:nth-child(2){
+        display: none;
+    }
 }
 @media (max-width: 393px){
     body > header > div > header > ul{
@@ -393,6 +396,13 @@ body > footer > div{
         flex-basis: 100%;
         margin: 0;
         padding: 0;
-        
+        flex-grow: 1;
+        flex-shrink: 1;
+    }
+    body > header > div > header{
+        display: none;
+    }
+    body > header > div > header > ul > li:nth-child(2){
+        display: none;
     }
 }
