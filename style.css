@@ -292,7 +292,6 @@ body > footer > div{
     }
     .header{
         position: absolute;
-        background:;
         
     }
     #contact > div > form > button{
@@ -339,7 +338,8 @@ body > footer > div{
         font-size: 2rem;
     }
     body > header > div > header > ul{
-        font-size: 1rem;
+        display: inline;
+        font-size: 0.9rem;
         flex-basis: 100%;
         margin: 0;
         padding: 0;
@@ -347,7 +347,6 @@ body > footer > div{
     }
     .header{
         position: absolute;
-        backdrop-filter: blur(2px);
     }
     .footer{
         font-size: 0.5rem;
@@ -392,18 +391,14 @@ body > footer > div{
         display: none;
     }
 }
-@media (max-width: 393px){
+@media (max-width: 396px) and (min-width:300px){
     body > header > div > header > ul{
-         font-size: 0.83rem;
+        font-size: 0.73rem;
         flex-basis: 100%;
         margin: 0;
         padding: 0;
         flex-grow: 1;
         flex-shrink: 1;
-    }
-    body > header > div > header{
-        display: none;
-        
     }
     body > header > div > header > ul > li:nth-child(2){
         display: none;
